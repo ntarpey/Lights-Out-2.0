@@ -36,13 +36,19 @@
 
 
 <div style="margin: 10px 0px 0px 0px;">
-<button style="padding:5px; background-color: white; border: 1px solid #666; border-radius:25px;">
-<%= link_to 'Edit', edit_report_path(@report)  %>
-</button>
+
+<%= button_to 'Edit', edit_report_path(@report), :method => :get, class: "btn" %>
+
 </div>
+
 <div style="margin: 10px 0px 0px 0px;">
-<button style="padding:5px; background-color: white; border: 1px solid #666; border-radius:25px;">
-<%= link_to 'Go Back To The Main Map', reports_path %>
-</button>
+
+<%= button_to 'Create New Report', new_report_path, :method => :get, class: "btn" %> 
+
+</div>
+
+
+<div style="margin: 10px 0px 0px 0px;">
+<%= button_to 'Go Back To The Main Map', reports_path, :method => :get, class: "btn" %>
 </div>
 
