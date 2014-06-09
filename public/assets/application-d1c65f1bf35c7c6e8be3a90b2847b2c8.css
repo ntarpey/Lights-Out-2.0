@@ -1,0 +1,468 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+
+
+
+ */
+
+/*
+ * Table
+ */
+/* line 6, /Users/nathantarpey/.rvm/gems/ruby-2.1.1/bundler/gems/jquery-datatables-rails-477e49a649c8/app/assets/stylesheets/dataTables/jquery.dataTables.css.scss */
+table.dataTable {
+  margin: 0 auto;
+  clear: both;
+  width: 100%;
+}
+
+/* line 12, /Users/nathantarpey/.rvm/gems/ruby-2.1.1/bundler/gems/jquery-datatables-rails-477e49a649c8/app/assets/stylesheets/dataTables/jquery.dataTables.css.scss */
+table.dataTable thead th {
+  padding: 3px 18px 3px 10px;
+  border-bottom: 1px solid black;
+  font-weight: bold;
+  cursor: pointer;
+  *cursor: hand;
+}
+
+/* line 20, /Users/nathantarpey/.rvm/gems/ruby-2.1.1/bundler/gems/jquery-datatables-rails-477e49a649c8/app/assets/stylesheets/dataTables/jquery.dataTables.css.scss */
+table.dataTable tfoot th {
+  padding: 3px 18px 3px 10px;
+  border-top: 1px solid black;
+  font-weight: bold;
+}
+
+/* line 26, /Users/nathantarpey/.rvm/gems/ruby-2.1.1/bundler/gems/jquery-datatables-rails-477e49a649c8/app/assets/stylesheets/dataTables/jquery.dataTables.css.scss */
+table.dataTable td {
+  padding: 3px 10px;
+}
+
+/* line 31, /Users/nathantarpey/.rvm/gems/ruby-2.1.1/bundler/gems/jquery-datatables-rails-477e49a649c8/app/assets/stylesheets/dataTables/jquery.dataTables.css.scss */
+table.dataTable td.center,
+table.dataTable td.dataTables_empty {
+  text-align: center;
+}
+
+/* line 35, /Users/nathantarpey/.rvm/gems/ruby-2.1.1/bundler/gems/jquery-datatables-rails-477e49a649c8/app/assets/stylesheets/dataTables/jquery.dataTables.css.scss */
+table.dataTable tr.odd {
+  background-color: #E2E4FF;
+}
+
+/* line 36, /Users/nathantarpey/.rvm/gems/ruby-2.1.1/bundler/gems/jquery-datatables-rails-477e49a649c8/app/assets/stylesheets/dataTables/jquery.dataTables.css.scss */
+table.dataTable tr.even {
+  background-color: white;
+}
+
+/* line 38, /Users/nathantarpey/.rvm/gems/ruby-2.1.1/bundler/gems/jquery-datatables-rails-477e49a649c8/app/assets/stylesheets/dataTables/jquery.dataTables.css.scss */
+table.dataTable tr.odd td.sorting_1 {
+  background-color: #D3D6FF;
+}
+
+/* line 39, /Users/nathantarpey/.rvm/gems/ruby-2.1.1/bundler/gems/jquery-datatables-rails-477e49a649c8/app/assets/stylesheets/dataTables/jquery.dataTables.css.scss */
+table.dataTable tr.odd td.sorting_2 {
+  background-color: #DADCFF;
+}
+
+/* line 40, /Users/nathantarpey/.rvm/gems/ruby-2.1.1/bundler/gems/jquery-datatables-rails-477e49a649c8/app/assets/stylesheets/dataTables/jquery.dataTables.css.scss */
+table.dataTable tr.odd td.sorting_3 {
+  background-color: #E0E2FF;
+}
+
+/* line 41, /Users/nathantarpey/.rvm/gems/ruby-2.1.1/bundler/gems/jquery-datatables-rails-477e49a649c8/app/assets/stylesheets/dataTables/jquery.dataTables.css.scss */
+table.dataTable tr.even td.sorting_1 {
+  background-color: #EAEBFF;
+}
+
+/* line 42, /Users/nathantarpey/.rvm/gems/ruby-2.1.1/bundler/gems/jquery-datatables-rails-477e49a649c8/app/assets/stylesheets/dataTables/jquery.dataTables.css.scss */
+table.dataTable tr.even td.sorting_2 {
+  background-color: #F2F3FF;
+}
+
+/* line 43, /Users/nathantarpey/.rvm/gems/ruby-2.1.1/bundler/gems/jquery-datatables-rails-477e49a649c8/app/assets/stylesheets/dataTables/jquery.dataTables.css.scss */
+table.dataTable tr.even td.sorting_3 {
+  background-color: #F9F9FF;
+}
+
+/*
+ * Table wrapper
+ */
+/* line 49, /Users/nathantarpey/.rvm/gems/ruby-2.1.1/bundler/gems/jquery-datatables-rails-477e49a649c8/app/assets/stylesheets/dataTables/jquery.dataTables.css.scss */
+.dataTables_wrapper {
+  position: relative;
+  clear: both;
+  *zoom: 1;
+}
+
+/*
+ * Page length menu
+ */
+/* line 59, /Users/nathantarpey/.rvm/gems/ruby-2.1.1/bundler/gems/jquery-datatables-rails-477e49a649c8/app/assets/stylesheets/dataTables/jquery.dataTables.css.scss */
+.dataTables_length {
+  float: left;
+}
+
+/*
+ * Filter
+ */
+/* line 67, /Users/nathantarpey/.rvm/gems/ruby-2.1.1/bundler/gems/jquery-datatables-rails-477e49a649c8/app/assets/stylesheets/dataTables/jquery.dataTables.css.scss */
+.dataTables_filter {
+  float: right;
+  text-align: right;
+}
+
+/*
+ * Table information
+ */
+/* line 76, /Users/nathantarpey/.rvm/gems/ruby-2.1.1/bundler/gems/jquery-datatables-rails-477e49a649c8/app/assets/stylesheets/dataTables/jquery.dataTables.css.scss */
+.dataTables_info {
+  clear: both;
+  float: left;
+}
+
+/*
+ * Pagination
+ */
+/* line 85, /Users/nathantarpey/.rvm/gems/ruby-2.1.1/bundler/gems/jquery-datatables-rails-477e49a649c8/app/assets/stylesheets/dataTables/jquery.dataTables.css.scss */
+.dataTables_paginate {
+  float: right;
+  text-align: right;
+}
+
+/* Two button pagination - previous / next */
+/* line 94, /Users/nathantarpey/.rvm/gems/ruby-2.1.1/bundler/gems/jquery-datatables-rails-477e49a649c8/app/assets/stylesheets/dataTables/jquery.dataTables.css.scss */
+.paginate_disabled_previous,
+.paginate_enabled_previous,
+.paginate_disabled_next,
+.paginate_enabled_next {
+  height: 19px;
+  float: left;
+  cursor: pointer;
+  *cursor: hand;
+  color: #111 !important;
+}
+
+/* line 104, /Users/nathantarpey/.rvm/gems/ruby-2.1.1/bundler/gems/jquery-datatables-rails-477e49a649c8/app/assets/stylesheets/dataTables/jquery.dataTables.css.scss */
+.paginate_disabled_previous:hover,
+.paginate_enabled_previous:hover,
+.paginate_disabled_next:hover,
+.paginate_enabled_next:hover {
+  text-decoration: none !important;
+}
+
+/* line 110, /Users/nathantarpey/.rvm/gems/ruby-2.1.1/bundler/gems/jquery-datatables-rails-477e49a649c8/app/assets/stylesheets/dataTables/jquery.dataTables.css.scss */
+.paginate_disabled_previous:active,
+.paginate_enabled_previous:active,
+.paginate_disabled_next:active,
+.paginate_enabled_next:active {
+  outline: none;
+}
+
+/* line 115, /Users/nathantarpey/.rvm/gems/ruby-2.1.1/bundler/gems/jquery-datatables-rails-477e49a649c8/app/assets/stylesheets/dataTables/jquery.dataTables.css.scss */
+.paginate_disabled_previous,
+.paginate_disabled_next {
+  color: #666 !important;
+}
+
+/* line 119, /Users/nathantarpey/.rvm/gems/ruby-2.1.1/bundler/gems/jquery-datatables-rails-477e49a649c8/app/assets/stylesheets/dataTables/jquery.dataTables.css.scss */
+.paginate_disabled_previous,
+.paginate_enabled_previous {
+  padding-left: 23px;
+}
+
+/* line 123, /Users/nathantarpey/.rvm/gems/ruby-2.1.1/bundler/gems/jquery-datatables-rails-477e49a649c8/app/assets/stylesheets/dataTables/jquery.dataTables.css.scss */
+.paginate_disabled_next,
+.paginate_enabled_next {
+  padding-right: 23px;
+  margin-left: 10px;
+}
+
+/* line 128, /Users/nathantarpey/.rvm/gems/ruby-2.1.1/bundler/gems/jquery-datatables-rails-477e49a649c8/app/assets/stylesheets/dataTables/jquery.dataTables.css.scss */
+.paginate_enabled_previous {
+  background: url(/assets/dataTables/back_enabled.png) no-repeat top left;
+}
+
+/* line 129, /Users/nathantarpey/.rvm/gems/ruby-2.1.1/bundler/gems/jquery-datatables-rails-477e49a649c8/app/assets/stylesheets/dataTables/jquery.dataTables.css.scss */
+.paginate_enabled_previous:hover {
+  background: url(/assets/dataTables/back_enabled_hover.png) no-repeat top left;
+}
+
+/* line 130, /Users/nathantarpey/.rvm/gems/ruby-2.1.1/bundler/gems/jquery-datatables-rails-477e49a649c8/app/assets/stylesheets/dataTables/jquery.dataTables.css.scss */
+.paginate_disabled_previous {
+  background: url(/assets/dataTables/back_disabled.png) no-repeat top left;
+}
+
+/* line 132, /Users/nathantarpey/.rvm/gems/ruby-2.1.1/bundler/gems/jquery-datatables-rails-477e49a649c8/app/assets/stylesheets/dataTables/jquery.dataTables.css.scss */
+.paginate_enabled_next {
+  background: url(/assets/dataTables/forward_enabled.png) no-repeat top right;
+}
+
+/* line 133, /Users/nathantarpey/.rvm/gems/ruby-2.1.1/bundler/gems/jquery-datatables-rails-477e49a649c8/app/assets/stylesheets/dataTables/jquery.dataTables.css.scss */
+.paginate_enabled_next:hover {
+  background: url(/assets/dataTables/forward_enabled_hover.png) no-repeat top right;
+}
+
+/* line 134, /Users/nathantarpey/.rvm/gems/ruby-2.1.1/bundler/gems/jquery-datatables-rails-477e49a649c8/app/assets/stylesheets/dataTables/jquery.dataTables.css.scss */
+.paginate_disabled_next {
+  background: url(/assets/dataTables/forward_disabled.png) no-repeat top right;
+}
+
+/* Full number pagination */
+/* line 137, /Users/nathantarpey/.rvm/gems/ruby-2.1.1/bundler/gems/jquery-datatables-rails-477e49a649c8/app/assets/stylesheets/dataTables/jquery.dataTables.css.scss */
+.paging_full_numbers {
+  height: 22px;
+  line-height: 22px;
+}
+
+/* line 141, /Users/nathantarpey/.rvm/gems/ruby-2.1.1/bundler/gems/jquery-datatables-rails-477e49a649c8/app/assets/stylesheets/dataTables/jquery.dataTables.css.scss */
+.paging_full_numbers a:active {
+  outline: none;
+}
+
+/* line 144, /Users/nathantarpey/.rvm/gems/ruby-2.1.1/bundler/gems/jquery-datatables-rails-477e49a649c8/app/assets/stylesheets/dataTables/jquery.dataTables.css.scss */
+.paging_full_numbers a:hover {
+  text-decoration: none;
+}
+
+/* line 149, /Users/nathantarpey/.rvm/gems/ruby-2.1.1/bundler/gems/jquery-datatables-rails-477e49a649c8/app/assets/stylesheets/dataTables/jquery.dataTables.css.scss */
+.paging_full_numbers a.paginate_button,
+.paging_full_numbers a.paginate_active {
+  border: 1px solid #aaa;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  padding: 2px 5px;
+  margin: 0 3px;
+  cursor: pointer;
+  *cursor: hand;
+  color: #333 !important;
+}
+
+/* line 161, /Users/nathantarpey/.rvm/gems/ruby-2.1.1/bundler/gems/jquery-datatables-rails-477e49a649c8/app/assets/stylesheets/dataTables/jquery.dataTables.css.scss */
+.paging_full_numbers a.paginate_button {
+  background-color: #ddd;
+}
+
+/* line 165, /Users/nathantarpey/.rvm/gems/ruby-2.1.1/bundler/gems/jquery-datatables-rails-477e49a649c8/app/assets/stylesheets/dataTables/jquery.dataTables.css.scss */
+.paging_full_numbers a.paginate_button:hover {
+  background-color: #ccc;
+  text-decoration: none !important;
+}
+
+/* line 170, /Users/nathantarpey/.rvm/gems/ruby-2.1.1/bundler/gems/jquery-datatables-rails-477e49a649c8/app/assets/stylesheets/dataTables/jquery.dataTables.css.scss */
+.paging_full_numbers a.paginate_active {
+  background-color: #99B3FF;
+}
+
+/*
+ * Processing indicator
+ */
+/* line 178, /Users/nathantarpey/.rvm/gems/ruby-2.1.1/bundler/gems/jquery-datatables-rails-477e49a649c8/app/assets/stylesheets/dataTables/jquery.dataTables.css.scss */
+.dataTables_processing {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 250px;
+  height: 30px;
+  margin-left: -125px;
+  margin-top: -15px;
+  padding: 14px 0 2px 0;
+  border: 1px solid #ddd;
+  text-align: center;
+  color: #999;
+  font-size: 14px;
+  background-color: white;
+}
+
+/*
+ * Sorting
+ */
+/* line 198, /Users/nathantarpey/.rvm/gems/ruby-2.1.1/bundler/gems/jquery-datatables-rails-477e49a649c8/app/assets/stylesheets/dataTables/jquery.dataTables.css.scss */
+.sorting {
+  background: url(/assets/dataTables/sort_both.png) no-repeat center right;
+}
+
+/* line 199, /Users/nathantarpey/.rvm/gems/ruby-2.1.1/bundler/gems/jquery-datatables-rails-477e49a649c8/app/assets/stylesheets/dataTables/jquery.dataTables.css.scss */
+.sorting_asc {
+  background: url(/assets/dataTables/sort_asc.png) no-repeat center right;
+}
+
+/* line 200, /Users/nathantarpey/.rvm/gems/ruby-2.1.1/bundler/gems/jquery-datatables-rails-477e49a649c8/app/assets/stylesheets/dataTables/jquery.dataTables.css.scss */
+.sorting_desc {
+  background: url(/assets/dataTables/sort_desc.png) no-repeat center right;
+}
+
+/* line 202, /Users/nathantarpey/.rvm/gems/ruby-2.1.1/bundler/gems/jquery-datatables-rails-477e49a649c8/app/assets/stylesheets/dataTables/jquery.dataTables.css.scss */
+.sorting_asc_disabled {
+  background: url(/assets/dataTables/sort_asc_disabled.png) no-repeat center right;
+}
+
+/* line 203, /Users/nathantarpey/.rvm/gems/ruby-2.1.1/bundler/gems/jquery-datatables-rails-477e49a649c8/app/assets/stylesheets/dataTables/jquery.dataTables.css.scss */
+.sorting_desc_disabled {
+  background: url(/assets/dataTables/sort_desc_disabled.png) no-repeat center right;
+}
+
+/* line 206, /Users/nathantarpey/.rvm/gems/ruby-2.1.1/bundler/gems/jquery-datatables-rails-477e49a649c8/app/assets/stylesheets/dataTables/jquery.dataTables.css.scss */
+table.dataTable thead th:active,
+table.dataTable thead td:active {
+  outline: none;
+}
+
+/*
+ * Scrolling
+ */
+/* line 214, /Users/nathantarpey/.rvm/gems/ruby-2.1.1/bundler/gems/jquery-datatables-rails-477e49a649c8/app/assets/stylesheets/dataTables/jquery.dataTables.css.scss */
+.dataTables_scroll {
+  clear: both;
+}
+
+/* line 218, /Users/nathantarpey/.rvm/gems/ruby-2.1.1/bundler/gems/jquery-datatables-rails-477e49a649c8/app/assets/stylesheets/dataTables/jquery.dataTables.css.scss */
+.dataTables_scrollBody {
+  *margin-top: -1px;
+  -webkit-overflow-scrolling: touch;
+}
+/* line 5, /Users/nathantarpey/rails_projects/lightsout-master/app/assets/stylesheets/reports.css.scss */
+.btn {
+  border-top: 1px solid #99cff0;
+  background: #65a9d7;
+  background: -webkit-gradient(linear, left top, left bottom, from(#659c3e), to(#65a9d7));
+  background: -webkit-linear-gradient(top, #659c3e, #65a9d7);
+  background: -moz-linear-gradient(top, #659c3e, #65a9d7);
+  background: -ms-linear-gradient(top, #659c3e, #65a9d7);
+  background: -o-linear-gradient(top, #659c3e, #65a9d7);
+  padding: 20px 40px;
+  -webkit-border-radius: 11px;
+  -moz-border-radius: 11px;
+  border-radius: 11px;
+  -webkit-box-shadow: black 0 1px 0;
+  -moz-box-shadow: black 0 1px 0;
+  box-shadow: black 0 1px 0;
+  text-shadow: rgba(0, 0, 0, 0.4) 0 1px 0;
+  color: white;
+  font-size: 24px;
+  font-family: Helvetica, Arial, Sans-Serif;
+  text-decoration: none;
+  vertical-align: middle;
+}
+
+/* line 27, /Users/nathantarpey/rails_projects/lightsout-master/app/assets/stylesheets/reports.css.scss */
+.btn:hover {
+  border-top-color: #28597a;
+  background: #28597a;
+  color: #ccc;
+}
+
+/* line 32, /Users/nathantarpey/rails_projects/lightsout-master/app/assets/stylesheets/reports.css.scss */
+.btn:active {
+  border-top-color: #1b435e;
+  background: #1b435e;
+}
+
+/* line 37, /Users/nathantarpey/rails_projects/lightsout-master/app/assets/stylesheets/reports.css.scss */
+.white-link {
+  border-top: 1px solid #99cff0;
+  background: #65a9d7;
+  background: -webkit-gradient(linear, left top, left bottom, from(#659c3e), to(#65a9d7));
+  background: -webkit-linear-gradient(top, #659c3e, #65a9d7);
+  background: -moz-linear-gradient(top, #659c3e, #65a9d7);
+  background: -ms-linear-gradient(top, #659c3e, #65a9d7);
+  background: -o-linear-gradient(top, #659c3e, #65a9d7);
+  padding: 20px 40px;
+  -webkit-border-radius: 11px;
+  -moz-border-radius: 11px;
+  border-radius: 11px;
+  -webkit-box-shadow: black 0 1px 0;
+  -moz-box-shadow: black 0 1px 0;
+  box-shadow: black 0 1px 0;
+  text-shadow: rgba(0, 0, 0, 0.4) 0 1px 0;
+  color: white;
+  font-size: 24px;
+  font-family: Helvetica, Arial, Sans-Serif;
+  text-decoration: none;
+  vertical-align: middle;
+}
+/* line 3, /Users/nathantarpey/rails_projects/lightsout-master/app/assets/stylesheets/scaffolds.css.scss */
+body {
+  background-color: #fff;
+  color: #333;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* line 11, /Users/nathantarpey/rails_projects/lightsout-master/app/assets/stylesheets/scaffolds.css.scss */
+p, ol, ul, td {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* line 17, /Users/nathantarpey/rails_projects/lightsout-master/app/assets/stylesheets/scaffolds.css.scss */
+pre {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 11px;
+}
+
+/* line 23, /Users/nathantarpey/rails_projects/lightsout-master/app/assets/stylesheets/scaffolds.css.scss */
+a {
+  color: #000;
+}
+/* line 25, /Users/nathantarpey/rails_projects/lightsout-master/app/assets/stylesheets/scaffolds.css.scss */
+a:visited {
+  color: #666;
+}
+/* line 28, /Users/nathantarpey/rails_projects/lightsout-master/app/assets/stylesheets/scaffolds.css.scss */
+a:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+/* line 35, /Users/nathantarpey/rails_projects/lightsout-master/app/assets/stylesheets/scaffolds.css.scss */
+div.field, div.actions {
+  margin-bottom: 10px;
+}
+
+/* line 40, /Users/nathantarpey/rails_projects/lightsout-master/app/assets/stylesheets/scaffolds.css.scss */
+#notice {
+  color: green;
+}
+
+/* line 44, /Users/nathantarpey/rails_projects/lightsout-master/app/assets/stylesheets/scaffolds.css.scss */
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+/* line 50, /Users/nathantarpey/rails_projects/lightsout-master/app/assets/stylesheets/scaffolds.css.scss */
+#error_explanation {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  background-color: black;
+}
+/* line 57, /Users/nathantarpey/rails_projects/lightsout-master/app/assets/stylesheets/scaffolds.css.scss */
+#error_explanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px;
+  margin-bottom: 0px;
+  background-color: #c00;
+  color: #fff;
+}
+/* line 67, /Users/nathantarpey/rails_projects/lightsout-master/app/assets/stylesheets/scaffolds.css.scss */
+#error_explanation ul li {
+  font-size: 12px;
+  list-style: square;
+}
